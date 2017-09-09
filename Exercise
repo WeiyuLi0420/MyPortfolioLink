@@ -1,0 +1,41 @@
+	Exercise:  Crafting																												
+																													
+																													
+	1)	The four equipment pieces below each have their own requirements in terms of type and quantity of material(s)																											
+		Players can acquire materials by purchasing a material chest, which rewards 1 material per chest																											
+		There are two chest types, each rewarding a given material type at varying odds shown in the table below																											
+																													
+		Equipment	Material Type(s) and Quantities																										
+		Helmet	{Material_A:4,Material_B:1,Material_C:1,Material_E:1,Material_F:2}																										
+		Weapon	{Material_B:3,Material_C:4,Material_D:2,Material_F:1}																										
+		Armor	{Material_A:1,Material_C:6,Material_D:4,Material_E:1}																										
+		Boots	{Material_B:5,Material_C:1,Material_D:2}																										
+																													
+		Material	Chest 1	Chest 2																									
+	  	A        	30% 	5% 																									
+	  	B	        5% 	  10% 																									
+	  	C	        10% 	40% 																									
+	  	D	        10% 	20% 																									
+	  	E         35% 	5% 																									
+	  	F         10% 	20% 																									
+																													
+		Gold Cost	  100	  50																									
+																									
+												
+	QUESTION:																								
+	a)	Using the space on the right of this worksheet (or new sheet), calculate the average number of chests required to 																										
+		craft a 'Helmet' by purchasing Chest 1 only and the average number required by purchasing Chest 2 only																									
+		If possible, make a dynamic 'calculator' using vlookup on the odds table, such that the output "average # chests"																											
+		can automatically update if the odds in the loot table below were changed																											
+																											
+	b)	Which option is cheaper to complete the 'Helmet': purchasing only Chest 1's or purchasing only Chest 2's																									
+		If possible, dynamically link the calculator to the costs per Chest type so the result (Chest 1 or Chest 2) 																						
+		can automatically update if the cost (and odds) were changed																								
+																													
+																					
+																													
+																													
+																													
+																													
+																													
+																													

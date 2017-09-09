@@ -1,0 +1,26 @@
+Function dynamicCalculator(X, odds)
+X1 = Application.Index(X, 1, 0)
+X1 = Application.Index(X1, 1, 0)
+odds1 = Application.Index(odds, 1, 0)
+odds1 = Application.Index(odds1, 1, 0)
+dynamicCalculator = Nrec(X1, odds1)
+End Function
+
+Function Nrec(X, odds)
+Dim res, Psum
+res = 0
+Psum = 0
+
+For i = 1 To 6
+    If X(i) > 0 Then
+        Xi = X
+        Xi(i) = X(i) - 1
+        Psum = Psum + odds(i)
+        res = res + odds(i) * Nrec(Xi, odds)
+    End If
+Next i
+If Psum > 0 Then
+    res = (res + 1) / Psum
+End If
+Nrec = res
+End Function
